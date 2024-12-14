@@ -7,8 +7,8 @@ body{
     margin-top: 70px;
 }
 main{
-    background: linear-gradient(to right, #000000, #FF4500);
-    color: white;
+
+    color: rgb(0, 0, 0);
 }
 header{
     position: fixed;  /* Fixa o cabeçalho no topo */
@@ -16,21 +16,21 @@ header{
     left: 0;
     width: 100%;  /* Cabeçalho ocupa 100% da largura */
     z-index: 1000;  /* Fica acima de outros elementos */
-    background: linear-gradient(to right, #000000, #FF4500);  /* Gradiente de fundo */
-    color: white;
+    background: linear-gradient(to right,#000000, #5e5e5e);/* Gradiente de fundo */
+    color: rgb(255, 255, 255);
     padding-top: 10px;
     box-sizing: border-box;  /* Garante que o padding seja incluído no cálculo da largur*/
 }
 
 .text-light{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .navbar-nav .nav-link {
     text-decoration: none;  /* Remove o sublinhado de todos os links no navbar */
   }
 .custom-bg{
-    background: linear-gradient(to right, #000000, #FF4500);
-    color: white;
+    background: linear-gradient(to right,#000000, #5e5e5e);
+    color: rgb(255, 255, 255);
     
 }
 .img_logo{
@@ -94,7 +94,7 @@ header{
     
 }
 .descricao{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     line-height: 1.6;
     animation: slideIn 2s ease-out forwards;  /* Aplica a animação */
@@ -128,9 +128,10 @@ header{
     text-align: center;
 }
 footer{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding-top: -10px;
-    background: linear-gradient(to right, #000000, #FF4500);
+    background: linear-gradient(to right,#000000, #5e5e5e);
 }
+
 
